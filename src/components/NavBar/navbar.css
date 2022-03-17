@@ -8,7 +8,30 @@ body{
 }
 
 .logo{
-    width: 155px;
-  height:   -50px;
+    width: 175px;
+  height: auto;
   /* font-size: 25px; */
+}
+
+.input-box{
+  width: 560px;
+  background-color: white;
+  border: 1px solid #cdcdcd;
+  border-right: none;
+}
+
+.input{
+  width: 80%;
+  outline: none;
+}
+
+.input::placeholder{
+  font-size: 15px;
+}
+
+.search-btn{
+  border: 1px solid #4487fb;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #4487fb;
 }

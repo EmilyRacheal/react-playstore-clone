@@ -4,7 +4,7 @@ import "./myapp.css"
 
 const index = () => {
   return (
-    <div>index</div>
+    <div>My apps</div>
   )
 }
 

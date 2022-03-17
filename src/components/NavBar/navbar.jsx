@@ -8,9 +8,7 @@ import ViewComfyIcon from '@mui/icons-material/ViewComfy';
 
 const navbar = () => {
   return (
-    <div className="">
-      
-      
+    <div className="">  
       <div className="border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
         <div className="flex flex-wrap items-center mx-auto container-fluid">
           <a href="#" class="flex items-center">
@@ -32,23 +30,21 @@ const navbar = () => {
               </button>
           </div>
           
-          <div className="flex items-center justify-center ml-5">
-            <div className="flex border-2 border-gray-200">
-              <input type="text" className="px-8 w-80" placeholder="Search" />
-                <button className="px-4 py-1 text-white bg-blue-600 border ">
+          <div className="flex justify-center ml-5">
+            <div className="flex justify-between w-full input-box">
+              <input type="text" className="px-2 input" placeholder="Search" />
+            </div>
+                <button className="px-4 text-white border search-btn">
                   <svg class="w-4 h-4 text-white-600" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24">
                   <path
                     d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
                 </svg>
                 </button>
-            </div>
           </div>
           
         </div>
       </div>
-
-
     </div>
   )
 }
