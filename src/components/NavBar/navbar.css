@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 150px;
+  height: -60px;
+  /* font-size: 25px; */
+}
