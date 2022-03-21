@@ -6,7 +6,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 
 function index() {
   return (
-    <div className='flex items-center justify-center w-full h-12 border border-blue-400 '>
+    <div className='flex items-center justify-center w-full h-12 bg-white '>
 
       <div className='w-1/5 h-12 bg-lime-600'>
         <span className='flex items-center w-full px-6 py-2 text-xl text-white '>
@@ -15,7 +15,7 @@ function index() {
         </span>
       </div>
 
-      <div className='flex justify-between w-4/5 h-10 px-6 border'>
+      <div className='flex justify-between w-4/5 h-10 px-6'>
 
         <div className='pt-2'>
           <ul className='flex '>
@@ -27,8 +27,8 @@ function index() {
         </div>
 
         <div className='flex items-center justify-center'>
-          <span className='border border-gray-400 icon1'> <ContactSupportIcon /> </span>
-          <span className='border border-gray-400 icon2'> <SettingsIcon /> </span>
+          <span className=' icon1'> <ContactSupportIcon /> </span>
+          <span className='icon2'> <SettingsIcon /> </span>
         </div>
 
       </div>
