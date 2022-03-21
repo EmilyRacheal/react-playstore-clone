@@ -1,0 +1,41 @@
+.parent{
+    width: 200px;
+}
+
+.topBg{
+    background-color: #f5f5f5f5;
+}
+
+.navBox{
+    box-shadow: 0 1px 6px rgb(0 0 0 / 10%);
+}
+
+.rule{
+    border-top: 1px solid rgb(202, 201, 201);
+}
+
+.menuList1 li{
+    color: #555;
+    font-weight: 400;
+}
+
+.menuList li{
+  font-size: 16px;
+  color: #555;
+  font-weight: 400;
+  padding: 4px 0px;
+}
+
+.menuList{
+    border-bottom: 1px solid rgb(202, 201, 201);
+}
+
+.btmBg{
+    background-color: #eeeeee;
+}
+
+.nav2 li{
+    color: #555;
+  font-weight: 400;
+  font-size: 15px;
+}

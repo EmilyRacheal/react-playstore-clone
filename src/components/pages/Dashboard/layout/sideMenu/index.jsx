@@ -13,16 +13,16 @@ const links = [
 
 function index() {
   return (
-    <div className='w-1/5 border border-blue-600'>
-      <div className='mx-10'>
-        <ul className=''>
-          <li className='my-2'>My apps</li>
-          <li className='my-2'>Shop</li>
+    <div className='border parent navBox'>
+      <div className='topBg'>
+        <ul className='px-10 text-xl menuList1'>
+          <li className='my-3'>My apps</li>
+          <li className='my-3'>Shop</li>
         </ul>
 
-        <div className='border-blue-600 boder'></div>
+        <div className='mx-10 rule'></div>
 
-        <ul>
+        <ul className='px-10 py-4 menuList'>
           <li>Games</li>
           <li>Kids</li>
           <li>Editor's choice</li>
@@ -30,12 +30,12 @@ function index() {
 
       </div>
 
-      <div className=''>
-        <ul>
+      <div className='btmBg'>
+        <ul className='px-5 py-3 nav2'>
           {
             links.map((item, i)=>{
               return (
-                <li>{item.name}</li>
+                <li className='py-1'>{item.name}</li>
               )   
             })
           }

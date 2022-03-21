@@ -6,16 +6,16 @@ import SettingsIcon from '@mui/icons-material/Settings';
 
 function index() {
   return (
-    <div className='flex items-center justify-center w-full h-12 bg-white '>
+    <div className='flex items-center justify-center w-full h-12 bg-white topNav'>
 
-      <div className='w-1/5 h-12 bg-lime-600'>
+      <div className='h-12 top1 bg-lime-600'>
         <span className='flex items-center w-full px-6 py-2 text-xl text-white '>
           <span className=''> <GridViewIcon /> </span>
           <span className='ml-4'>Apps</span>
         </span>
       </div>
 
-      <div className='flex justify-between w-4/5 h-10 px-6'>
+      <div className='flex justify-between h-10 px-6 top2'>
 
         <div className='pt-2'>
           <ul className='flex '>
