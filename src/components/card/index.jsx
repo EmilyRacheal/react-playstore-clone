@@ -6,14 +6,15 @@ import GradeIcon from '@mui/icons-material/Grade';
 function index() {
   return (
     <div className=''>
-        <div className='bg-white border border-blue-400 card1'>
+        <div className='bg-white border card1'>
           <img alt="logo" src={FacebookIcon} className="logo" />
           <div className='py-3 ml-3 '>
-            <p>Facebook Lite Meta Platforms, Inc.</p> 
-            <span> <GradeIcon fontSize="small"/> </span>
-            <span> <GradeIcon fontSize="small"/> </span>
-            <span> <GradeIcon fontSize="small"/> </span>
-            <span> <GradeIcon fontSize="small"/> </span>   
+            <p>Facebook Lite Meta Platforms,</p> 
+            <span className='pb-3'> <GradeIcon sx={{ fontSize: 15}} /> </span>
+            <span> <GradeIcon sx={{ fontSize: 15 }}/> </span>
+            <span> <GradeIcon sx={{ fontSize: 15 }}/> </span>
+            <span> <GradeIcon sx={{ fontSize: 15 }}/> </span> 
+            <span> <GradeIcon sx={{ fontSize: 15 }} color="disabled" /> </span>  
           </div>
           
         </div>
