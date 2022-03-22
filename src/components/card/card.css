@@ -1,0 +1,12 @@
+.card1{
+    width: 180px;
+}
+
+.card1 p{
+    color: #616161;
+    font-weight: 300;
+}
+
+.card1 span{
+    font-size: 13px !important;
+}
