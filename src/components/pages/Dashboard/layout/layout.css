@@ -1,0 +1,16 @@
+.parent{
+    width: 100%;
+}
+.topNav{
+    width: 100%;
+}
+.body{
+    display: flex;
+    width: 100%;
+}
+.sideNav{
+    width: 200px;
+}
+.pageContent{
+    width: calc(100% - 200px);
+}
