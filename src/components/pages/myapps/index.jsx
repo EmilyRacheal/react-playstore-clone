@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../../card/index";
+import MyAppCard from "../../myAppCard/index";
 
 import { Link } from "react-router-dom";
 import Navbar from "../../NavBar/navbar";
@@ -18,6 +19,7 @@ const index = () => {
       <br />
 
       <Card />
+      <MyAppCard />
     </div>
   );
 };
