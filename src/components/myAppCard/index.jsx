@@ -14,7 +14,7 @@ const Index = () => {
         </div>
 
         <div className="ml-5 g-drive">
-          <h1 className="">Google Drive</h1>
+          <h1 className="text-xl">Google Drive</h1>
           <h6>Google LLC</h6>
           <p className="mt-4 text-sm">
             Store, access, and share securely with Google drive, part of Google
