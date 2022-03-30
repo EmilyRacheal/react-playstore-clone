@@ -1,11 +1,14 @@
 .card-width {
-  width: 320px !important;
+  width: 350px !important;
+  box-shadow: 0 7px 8px rgb(0 0 0 / 9%);
 }
 .card-width img {
   width: 150px;
 }
+.card-width .g-drive h6 {
+  line-height: 1rem;
+}
 .card-width .g-drive p {
-  border: 1px solid blue;
   width: 150px;
 
   line-height: 18px;
@@ -13,4 +16,11 @@
   overflow: hidden;
   position: relative;
   word-break: break-word; */
+}
+
+.round-check {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  align-items: center;
 }
