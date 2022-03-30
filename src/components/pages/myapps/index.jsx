@@ -19,6 +19,8 @@ const index = () => {
       <br />
 
       <Card />
+      <br />
+      <br />
       <MyAppCard />
     </div>
   );

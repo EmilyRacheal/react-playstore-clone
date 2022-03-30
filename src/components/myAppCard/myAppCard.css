@@ -1,0 +1,16 @@
+.card-width {
+  width: 320px !important;
+}
+.card-width img {
+  width: 150px;
+}
+.card-width .g-drive p {
+  border: 1px solid blue;
+  width: 150px;
+
+  line-height: 18px;
+  /* max-height: 54px;
+  overflow: hidden;
+  position: relative;
+  word-break: break-word; */
+}
