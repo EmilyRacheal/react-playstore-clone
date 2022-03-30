@@ -3,6 +3,7 @@ import Xender from "../assest/xender.webp";
 import AudioMark from "../assest/audiomark.webp";
 import Boomplay from "../assest/boom.webp";
 import Chrome from "../assest/chrome.webp";
+import Uba from "../assest/uba.webp";
 
 export const myData = [
   {
@@ -43,5 +44,14 @@ export const myData = [
     title: "Google LLC",
     description:
       "Fast, simple, and secure. Google Chrome browser for Android phones and tablets.",
+    stars: 4,
+  },
+  {
+    logo: Uba,
+    name: "UBA Mobile Banking",
+    title: "United Bank of Africa",
+    description:
+      "This is the official Mobile Banking App from United Bank for Africa",
+    stars: 4,
   },
 ];
