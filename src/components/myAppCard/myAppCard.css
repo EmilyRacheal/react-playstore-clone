@@ -1,5 +1,5 @@
 .card-width {
-  width: 350px !important;
+  width: 330px !important;
   box-shadow: 0 7px 8px rgb(0 0 0 / 9%);
 }
 .card-width img {
@@ -14,8 +14,7 @@
 }
 
 .round-check {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  align-items: center;
 }

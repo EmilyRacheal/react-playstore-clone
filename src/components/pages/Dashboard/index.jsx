@@ -20,7 +20,7 @@ const Index = () => {
           <Route path="/kids" element={<KidsPage />} />
           <Route path="/releases" element={<NewRelease />} />
           <Route path="/editor" element={<Editor />} />
-          <Route path="/app" element={<Apps />} />
+          <Route path="/apps" element={<Apps />} />
           <Route path="/shops" element={<Shop />} />
         </Routes>
       </LayoutWrapper>
