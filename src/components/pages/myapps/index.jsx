@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../card/index";
 import MyAppCard from "../../myAppCard/index";
-import GamesCard from "../../kidsCard/index";
+import GameCard from "../../gameCard/index";
 
 import { Link } from "react-router-dom";
 import Navbar from "../../NavBar/navbar";
@@ -29,7 +29,12 @@ const index = () => {
       <br />
       <br />
       <br />
-      <GamesCard />
+      <GameCard />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
