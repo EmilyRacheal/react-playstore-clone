@@ -7,8 +7,8 @@ import Card from "../../../card/index";
 const Index = () => {
   return (
     <div className="box-border p-7">
-      <div className="flex justify-between py-3 border link-width border-b-green-900">
-        <h1 className="">Popular Gamees and Apps</h1>
+      <div className="flex justify-between py-3 link-width ">
+        <h1 className="text-2xl">Popular Apps & Games</h1>
         <button className="px-2 py-1 text-white rounded btn-see">
           See More
         </button>
