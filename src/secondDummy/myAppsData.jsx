@@ -19,10 +19,9 @@ export const myData = [
   },
   {
     logo: Xender,
-    name: "Xender - Share Music Transfer",
-    title: "Xender File Sharing Team",
-    description:
-      "Share Music,share Video,Share Photo,Share It,Share Movie,File Sharing",
+    name: "Xender - Share Music",
+    title: "Xender File Sharing",
+    description: "Share Music,share Video,Share Movie,File Sharing",
     stars: 4,
   },
   {

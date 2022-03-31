@@ -10,6 +10,7 @@ function index({ logo, name, company }) {
         <img alt="logo" src={logo} className="logo" />
         <div className="py-3 ml-3 ">
           <p className="name">{name}</p>
+          {/* <p className="">{company}</p> */}
           <span className="pb-3">
             {" "}
             <GradeIcon sx={{ fontSize: 15 }} />{" "}

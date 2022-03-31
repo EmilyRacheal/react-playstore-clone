@@ -10,7 +10,7 @@ const Index = () => {
       <div className="">
         <h1 className="title">My Android Apps</h1>
       </div>
-      <div className="flex flex-wrap w-full gap-5">
+      <div className="flex flex-wrap w-full gap-2">
         {myData.map((item, i) => {
           return (
             <MyAppCard
