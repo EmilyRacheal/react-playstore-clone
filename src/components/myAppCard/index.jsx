@@ -4,20 +4,18 @@ import GoogleDrive from "../../assest/googledrive.webp";
 import GradeIcon from "@mui/icons-material/Grade";
 import CheckIcon from "@mui/icons-material/Check";
 
-const Index = () => {
+const Index = ({ logo, name, title, description, stars }) => {
   return (
     <div className="">
       <div className="flex py-1 bg-white card-width">
         <div className="w-1/2 ">
-          <img alt="logo" src={GoogleDrive} className="" />
+          <img alt="logo" src={logo} className="" />
         </div>
 
         <div className="w-1/2 py-2 pr-3 g-drive">
-          <h1 className="text-xl">Google Drive</h1>
-          <h6>Google LLC</h6>
-          <p className="mt-3 text-sm">
-            Store, access, and share securely with Google drive, part of Google
-          </p>
+          <h1 className="text-xl">{name}</h1>
+          <h6>{title}</h6>
+          <p className="mt-3 text-sm">{description}</p>
           <div className="flex items-center justify-between mt-4">
             <div className="flex items-center">
               <span className="text-gray-500 ">
