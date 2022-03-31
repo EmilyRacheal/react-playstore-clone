@@ -1,7 +1,8 @@
 import React from "react";
 import "./apps.css";
 import AppsCard from "../../../myAppCard/index";
-import { MyApps } from "../../../../secondDummy/myAppsData";
+import { myData } from "../../../../secondDummy/myAppsData";
+import MyAppCard from "../../../myAppCard/index";
 
 const Index = () => {
   return (
@@ -10,8 +11,16 @@ const Index = () => {
         <h1 className="title">My Android Apps</h1>
       </div>
       <div className="flex flex-wrap w-full gap-5">
-        {MyApps.map((item, i) => {
-          return <gameCard />;
+        {myData.map((item, i) => {
+          return (
+            <MyAppCard
+              logo={item.logo}
+              name={item.name}
+              title={item.company}
+              description={item.description}
+              stars={item.stars}
+            />
+          );
         })}
       </div>
       {/* <div className="flex flex-col w-11/12">
