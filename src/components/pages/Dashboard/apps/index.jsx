@@ -16,7 +16,7 @@ const Index = () => {
             <MyAppCard
               logo={item.logo}
               name={item.name}
-              title={item.company}
+              title={item.title}
               description={item.description}
               stars={item.stars}
             />

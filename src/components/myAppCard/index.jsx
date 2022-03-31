@@ -13,8 +13,8 @@ const Index = ({ logo, name, title, description, stars }) => {
         </div>
 
         <div className="w-1/2 py-2 pr-3 g-drive">
-          <h1 className="text-xl">{name}</h1>
-          <h6>{title}</h6>
+          <h1 className="text-l">{name}</h1>
+          <h6 className="">{title}</h6>
           <p className="mt-3 text-sm">{description}</p>
           <div className="flex items-center justify-between mt-4">
             <div className="flex items-center">
