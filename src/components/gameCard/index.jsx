@@ -1,5 +1,5 @@
 import React from "react";
-import "./kidsCard.css";
+import "./gameCard.css";
 import KidsGame from "../../assest/games.webp";
 import Avatar from "../../assest/avatar.webp";
 
