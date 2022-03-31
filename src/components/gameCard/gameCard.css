@@ -5,8 +5,8 @@
     0px 2px 1px -1px rgb(0 0 0 / 12%), 0px 1px 3px 0px rgb(0 0 0 / 20%);
 }
 .game-width .game-img {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 }
 .gaurd {
   font-size: 18px;
