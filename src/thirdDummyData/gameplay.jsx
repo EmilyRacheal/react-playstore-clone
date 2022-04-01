@@ -8,7 +8,7 @@ import Tech from "../assest/tech.jpg";
 import Zuma from "../assest/zuma.webp";
 
 import Vr from "../assest/vr.jpg";
-import Farm from "../assest/farm.webp;";
+import Farm from "../assest/farm.webp";
 
 import ManBall from "../assest/manball.jpg";
 import Football from "../assest/football.webp";
@@ -18,7 +18,7 @@ import Chessers from "../assest/chesser.webp";
 
 export const myGame = [
   {
-    logo: Cardss,
+    logo: Vr,
     icon: Toon,
     title: "Toon Blast",
     description: "Peak",

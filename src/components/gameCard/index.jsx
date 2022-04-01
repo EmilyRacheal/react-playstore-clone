@@ -5,18 +5,18 @@ import Chess from "../../assest/chess.jpg";
 import Avatar from "../../assest/avatar.webp";
 import GradeIcon from "@mui/icons-material/Grade";
 
-const Index = () => {
+const Index = ({ logo, icon, title, description, stars }) => {
   return (
     <div className="">
       <div className="game-width">
-        <img alt="logo" src={Chess} className="game-img " />
+        <img alt="logo" src={logo} className="game-img " />
         <div className="flex flex-wrap px-4 py-3 bg-white line">
           <div>
-            <img alt="logo" src={Avatar} className="w-12" />
+            <img alt="logo" src={icon} className="w-12" />
           </div>
           <div className="ml-2">
-            <h3 className="gaurd">Guardain Tales</h3>
-            <p>Kakao Games Corp</p>
+            <h3 className="gaurd">{title}</h3>
+            <p>{description}</p>
             <div className="">
               <span className="text-gray-500 ">
                 <GradeIcon sx={{ fontSize: 15 }} />
