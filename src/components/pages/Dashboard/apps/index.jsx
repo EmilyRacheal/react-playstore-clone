@@ -1,6 +1,5 @@
 import React from "react";
 import "./apps.css";
-import AppsCard from "../../../myAppCard/index";
 import { myData } from "../../../../secondDummy/myAppsData";
 import MyAppCard from "../../../myAppCard/index";
 

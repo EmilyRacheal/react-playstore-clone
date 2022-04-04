@@ -1,14 +1,15 @@
 import React from "react";
-import "./card.css";
+import "./kidsCard.css";
 import GradeIcon from "@mui/icons-material/Grade";
 
 function index({ logo, name, company }) {
   return (
     <div className="">
-      <div className="p-3 bg-white border card1">
+      <div className="bg-white border card1">
         <img alt="logo" src={logo} className="logo" />
-        <div className="py-3 ml-3 ">
+        <div className="py-3 ml-3 cardbody ">
           <p className="name">{name}</p>
+          <p className="name">{company}</p>
           {/* <p className="">{company}</p> */}
           <span className="pb-3">
             {" "}
